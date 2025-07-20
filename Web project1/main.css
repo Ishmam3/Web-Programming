@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu-bar {
+    font-family: Roboto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 235px;
+}    
+
+.menu-bar ul li {
+    padding: 20px 30px;
+}
+
+.menu-bar ul li a {
+    color: #333333;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.menu-bar img {
+    padding-left: 100px;
+}
+
+.menu-bar .main-design a{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .heading {
+    font-family: Roboto;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-top: 300px;
+}
+
+.heading h1{
+    color: #BDBDBD; 
+}
+
+.heading .arrow-set {
+    padding-top: 120px;
+}
+
+.heading .arrow-set svg {
+    border: 1px solid #F2F2F2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.arrow-set svg:nth-child(1) {
+    padding-left: 20px;
+}
+
+.container1 .bg {
+    padding-right: 150px;
+}
+
+.container2 .iteam {
+    margin: 120px 350px;
+    border: 1px solid #FBFBFB;
+    background-color: #FBFBFB;
+    width: 1170px;
+    height: 450px;
+    display: flex;
+    
+}
+
+.iteam .item1 {
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.iteam .item2 {
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.iteam .item3 {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.item3 h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    color: #BDBDBD;
+}
+
+.item3 p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.item3 .button {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.button a {
+    font-family: Roboto;
+    font-size: 12px;
+    color: #333333;
+    background-color: #ffffff;
+    letter-spacing: 5px;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
+
+.container3 h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    padding-left: 350px;
+    padding-top: 20px;
+    color: #BDBDBD
+}
+
+.container3 .con-item{
+    display: flex;
+} 
+
+.con-item .con-item1 h2{
+    font-family: Roboto;
+    font-size: 140px;
+    color: #F2F2F2;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+
+.con-item2 p {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #333333;
+    padding-top: 45px;
+    padding-left: 5px;
+}
+
+.con-item3 h2 {
+    font-family: Roboto;
+    font-size: 140px;
+    color: #F2F2F2;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+.con-item4 p {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #333333;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+.container4 h1 {
+    font-family: Roboto;
+    font-size: 45px;
+    color: #BDBDBD;
+    padding-left: 350px;
+    padding-top: 60px;
+}
+
+.container4 .img-section {
+    display: flex;
+}
+
+.img-section .img1 {
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.img-section .img2 {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.container4 .img-section2 {
+    display: flex;
+}
+
+.img-section2 .img3 {
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+.img-section2 .img4 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.img-section2 .img5 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.container4 .button-section {
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 400px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.button-section a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.container5 h1 {
+    font-family: Roboto;
+    font-size: 45px;
+    color: #BDBDBD;
+    padding-left: 350px;
+    padding-top: 120px;
+}
+
+.container5 .con-info {
+    display: flex;
+}
+
+.con-info .input-items .input1 {
+    padding-left: 350px;
+    padding-top: 20px;
+}
+
+.input1 input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #F3F3F3;
+    border: #F3F3F3;
+
+}
+
+.input2 {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.input2 input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background: #F3F3F3;
+    border: #F3F3F3;
+}
+
+.input3 {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.input3 input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background: #F3F3F3;
+    border: #F3F3F3;
+}
+
+.input4 {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.input4 input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background: #F3F3F3;
+    border: #F3F3F3;
+}
+
+.input5 {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.input5 input {
+    width: 300px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 65px;
+    background: #F3F3F3;
+    border: #F3F3F3;
+}
+
+.input-items .send-button {
+    font-family: Roboto;
+    font-size: 12px;
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.send-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #333333;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.con-info .contact-img {
+    padding-left: 30px;
+}
+
+.contact-img img {
+    width: 570px;
+}
+
+.footer-section {
+    margin-top: 100px;
+    background-color: #2C2C2C;
+    width: 100%;
+    height: 380px;
+    display: flex;
+}
+
+.footer-section .fs1 {
+    padding-left: 400px;
+    padding-top: 80px;
+}
+
+.footer-section .fs2 {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+.fs2 h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.fs2 .info-link1 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.info-link1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-link2 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.info-link2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-link3 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.info-link3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-link4 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.info-link4 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-link5 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.info-link5 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-section .fs3 {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+.fs3 h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.fs3 .con-info1 {
+    display: flex;
+}
+
+.con-info1 .loc-img {
+    padding-top: 20px;
+}
+
+.con-info1 .loc-info {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.loc-info p {
+    color: #ffffff;
+}
+
+.con-info2 {
+    display: flex;
+}
+
+.con-info2 .ph-img {
+    padding-top: 30px;
+}
+
+.con-info2 .num-info {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.num-info p {
+    color: #ffffff;
+}
+
+.con-info3 {
+    display: flex;
+}
+
+.con-info3 .mail-img {
+    padding-top: 30px;
+}
+
+.con-info3 .mail {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.mail p {
+    color: #ffffff;
+}
+
+.footer-section .fs4 {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 300px;
+    padding-top: 80px;
+}
+
+.fs4 h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.fs4 .social-icons {
+    display: flex;
+}
+
+.social-icons .si1 {
+    padding-top: 20px;
+}
+
+.si1 img {
+    width: 10px;
+    height: 19px;
+}
+
+.si2 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.si2 img {
+    width: 22px;
+    height: 17px;
+}
+
+.si3 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.si3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.si4 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.si4 img {
+    width: 14px;
+    height: 19px;
+}
